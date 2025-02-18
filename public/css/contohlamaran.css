@@ -1,0 +1,139 @@
+.surat-lamaran {
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 24px;
+    color: #254e7a;
+}
+
+h3{
+    color: #254e7a;
+}
+
+.tanggal {
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.penerima,
+.isi {
+    margin-bottom: 20px;
+}
+
+.penerima span, .data-diri span {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.ttd {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.cv-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cv-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    grid-column: span 2;
+    display: block;
+    margin-left: 15px;
+    margin-right: 16px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #254e7a;
+    margin-bottom: 10px;
+}
+
+.section-content, .skills-list, .experience-list {
+    margin-left: 20px;
+}
+
+.section-content p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.skills-list, .experience-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li, .experience-list li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.left-section {
+    border-right: 1px solid #eee;
+    padding-right: 30px;
+}
+
+.right-section {
+    padding-left: 30px;
+}
+
+.right-section ul {
+    margin-left: 10px;
+}
+
+.experience-list li, .skills-list li {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .surat-lamaran{
+        max-width: 380px;
+        font-size: 14px;
+    }
+
+    .cv-container{
+        max-width: 380px;
+    }
+
+    .cv-container p, .cv-container li{
+        font-size: 14px;
+    }
+
+    .section-title{
+        font-size: 15px;
+    }
+
+    h1, h3{
+        font-size: 20px;
+    }
+
+    .cv-container img{
+        width: 100px;
+        height: 100px;
+    }
+
+}

@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgp{
+    background-color: #254e7a;
+}
+    .profile-section {
+        text-align: center;
+    }
+    
+    .profile-picture {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 16px;
+    }
+    
+    .profile-picture img {
+        width: 100%;
+        height: 100%;
+                object-fit: contain;
+    }
+    
+    .camera-icon {
+        position: absolute;
+        border-radius: 100%;
+        background-color: white;
+        padding: 5%;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+    }
+    
+    h4 {
+        color: white;
+        margin-bottom: 5px;
+    }
+    
+    .profile-section p {
+        color: white;
+        font-size: 14px;
+    }
+    .sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+    .sidebar ul {
+        list-style-type: none;
+    }
+    .sidebar ul li a {
+        color: white;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+    }
+    .sidebar ul li.active a,
+    .sidebar ul li a:hover {
+        background-color: #fff;
+    }
+    
+    #wrapper.toggled #sidebar {
+        margin-left: -250px;
+    }
+    
+        #page-content-wrapper {
+        margin-left: 250px;
+        width: 100%;
+        transition: all 0.3s;
+    }
+    
+    #wrapper.toggled #page-content-wrapper {
+        margin-left: 0;
+    }
+    
+        .card {
+        background-color: #17a2b8;
+        color: white;
+    }
+    .card-body {
+        padding: 15px;
+    }
+    .btn-sm {
+        margin-right: 10px;
+    }
+    
+    footer {
+        left: 250px;
+        position :inherit;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px 20px; 
+        background-color: #254e7a; 
+        box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.3);
+    }
+    .icon-container {
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .icon-container a {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        border: 2px solid white;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .icon-container a:hover {
+        background-color: white;
+        color: #254e7a;
+    }
+    
+
+
+.progress-box i {
+    transition: transform 0.5s ease;
+    animation: pulse 2s infinite;
+  }
+  
+  .progress-box:hover i {
+    transform: rotate(10deg) scale(1.1);
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .card {
+    min-height: 4g50px;   
+  }
+  
+  .card-body p {
+    margin-bottom: 20px;   
+  }
+  .card img {
+    margin-bottom: 20px;   
+  }
+  
+  .logo {
+    width: 100px;      height: 100px;     object-fit: contain;   
+  }
+  
+  .carousel-item {
+      padding: 20px;
+      background-color: #5584b0;
+      color: white;
+      border-radius: 8px;
+    }
+    .carousel-item h5 {
+      font-weight: bold;
+    }
+    .carousel-item img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 8px;
+    }
+    .carousel-caption {
+      position: static;
+      padding-left: 20px;
+    }
+    .carousel-indicators [data-bs-target] {
+      background-color: #000;
+    }
+       .progress-box {
+      background-color: #254e7a;
+      color: white;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .progress-box i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .progress-box h3 {
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+  
+  
+  .group-button{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+  }
+  
+  .group-button button {
+      border-radius: 10px;
+      padding: 10px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border: none;
+      transition: background-color 0.3s, color 0.3s; 
+      font-weight: 500;
+  }
+  
+  #welcome{
+    text-align: center;
+    background-color: #254e7a;
+    color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .graduation-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  
+  .selengkapnya{
+    color: #5584b0;
+  }
+  
+  .selengkapnya:hover{
+    color: #254e7a;
+  }
+  
+  @media(max-width: 768px){
+      .group-button button {
+          padding: 10px 15px;
+          font-size: 14px;
+          font-weight: 500;
+      }
+  }

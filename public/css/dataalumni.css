@@ -1,0 +1,164 @@
+#data-list td {
+    text-transform: uppercase;
+}
+.dataalumni {
+    margin: 32px;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.form-control, .form-select {
+    height: calc(2.25rem + 2px); 
+}
+.form-select-sm {
+    font-size: 0.8rem; 
+}
+
+#filterForm{
+    margin-bottom: 24px;
+}
+
+#linkactive{
+    padding-top: 24px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"],
+.search-bar select {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    width: 30%;
+}
+
+.search-bar input[type="text"] {
+    width: 40%;
+}
+
+.btn-detail {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.print {
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #FF9800;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.print:hover{
+    background-color: #FB8C00;
+}
+
+td {
+    text-align: center;
+}
+
+#thnlls, #datnisn, #aksi{
+    text-align: center;
+}
+
+.alumni{
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+table.table-striped thead th {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #5584b0;
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    #data-list_wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    #data-list {
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .dataalumni {
+        margin: 16px;
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    #filterForm .row {
+        flex-direction: column;
+    }
+
+    #filterForm .col-sm-12, #filterForm .col-md-3, #filterForm .col-md-2 {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .form-control, .form-select {
+        width: 100%;
+        font-size: 0.9rem;
+        height: calc(2rem + 2px);
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 8px 12px;
+        text-align: center;
+    }
+
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+
+    #data-list {
+        font-size: 0.9rem;
+        overflow-x: auto;
+        white-space: nowrap;
+        display: block;
+    }
+
+    #data-list td, #data-list th {
+        padding: 8px;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    
+
+        .d-flex.justify-content-end {
+        justify-content: center;
+        margin-top: 12px;
+    }
+    
+    .print, .btn-success {
+        font-size: 0.9rem;
+        padding: 10px;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,92 @@
+.detailalumni {
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+#keterangan {
+    width: 310px;
+}
+
+#titikdua {
+    text-align: center;
+    width: 10px;
+}
+
+#judul{
+    font-weight: bold;
+    text-align: left;
+    background-color: #5584b0;
+    color: white;
+}
+
+.breadcrumb{
+    margin-top: 24px;
+}
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#profil{
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#edit {
+    border: #FF9800;
+    color: #fff;
+    background-color: #FF9800;
+}
+
+#edit:hover{
+    color: #fff;
+    background-color: #FB8C00;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+        .table {
+        font-size: 14px;
+    }
+
+    #keterangan {
+        width: 140px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+        #judul {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+    }
+
+        .biodata {
+        margin: 16px;
+    }
+}

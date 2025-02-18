@@ -1,0 +1,304 @@
+.menu a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+}
+
+.camera-icon {
+    display: inline-block;
+    transition: transform 0.3s ease, cursor 0.3s ease;
+}
+
+.camera-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.alumni {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background-color: #254e7a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    flex-shrink: 0; 
+    position: relative; 
+}
+.profile-section {
+    text-align: center;
+}
+
+.profile-picture {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 16px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid white;
+}
+
+.camera-icon {
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    padding: 5%;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.profile-section p {
+    color: white;
+    font-size: 14px;
+}
+
+.menu {
+    width: 100%;
+    padding: 0;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu li a .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menu li.active a {
+    background-color: white;
+    color: #254e7a;
+    border-radius: 5px;
+}
+
+.menu li.active a .icon img {
+    filter: brightness(0) invert(1);
+}
+
+
+.menu li.active a:hover {
+    background-color: #ffffff;
+}
+
+.konten{
+    flex-grow: 1; 
+}
+
+.konten a, .konten a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.head{
+    flex: 1;
+}
+
+.submenu-content {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none; }
+
+.collapse {
+    display: none;
+}
+
+.expand {
+    display: block; }
+
+.toggle-icon {
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+
+.rotate {
+    transform: rotate(180deg); }
+
+.sidebar-hidden {
+    display: none;
+}
+
+.content-expanded {
+    margin-left: 0;     
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.btn-tutup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.btn-tutup:hover {
+    color: rgba(255, 255, 255, 0.7); 
+    transform: scale(1.1);
+}
+
+.btn-hamburger {
+    display: block; 
+    cursor: pointer; 
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    color: white; 
+    transition: color 0.3s, transform 0.3s; 
+    margin-right: 16px;
+}
+
+.btn-hamburger:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
+
+
+.sidebar-hidden + .konten .hamburger {
+    display: block; 
+}
+
+.sidebar:not(.sidebar-hidden) + .konten .hamburger {
+    display: none; 
+}
+
+.overlay {
+    display: none;     
+    position: fixed;     
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);     
+    z-index: 10;     
+    overflow: hidden;
+}
+
+@media(max-width: 768px) {
+    .menu a {
+        padding: 8px 10px;
+        font-size: 14px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .menu li a .icon {
+        font-size: 16px;
+    }
+
+    .camera-icon {
+        width: 25px;
+        height: 25px;
+        transition: transform 0.3s ease, cursor 0.3s ease;
+    }
+
+    .profile-section {
+        padding: 16px;
+    }
+
+    .profile-picture {
+        width: 90px;
+        height: 90px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .profile-section p {
+        font-size: 12px;
+    }
+
+    .menu {
+        padding: 0;
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .menu li a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .headisi p {
+        margin: 16px;
+        font-size: 14px;
+    }
+
+    .toggle-icon {
+        margin-left: 0;
+    }
+
+    .submenu-content {
+        padding-left: 15px;
+    }
+
+    .head {
+        font-size: 18px;
+    }
+    .konten{
+        width: 100%;
+    }
+    .overlay {
+        display: none;     
+    }
+
+    .sidebar {
+        position: fixed;         
+        transition: left 0.3s ease;         
+        z-index: 20;         
+        height: 100%;         
+        overflow-y: auto;         
+        scrollbar-width: none;     
+    }
+
+    .sidebar.visible {
+        left: 0;     
+    }
+    
+    .sidebar::-webkit-scrollbar {
+        display: none;     
+    }
+
+    .btn-tutup, .btn-hamburger{
+        font-size: 24px;
+    }
+}

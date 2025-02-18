@@ -1,0 +1,184 @@
+
+.edit {
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #FF9800;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.edit:hover{
+    background-color: #FB8C00;
+}
+
+.biodata {
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+#keterangan {
+    width: 300px;
+}
+
+#titikdua {
+    text-align: center;
+    width: 10px;
+}
+
+#judul{
+    font-weight: bold;
+    text-align: left;
+    background-color: #5584b0;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-left: 16px;
+}
+
+#judul i{
+    margin-right: 8px;
+}
+
+.breadcrumb{
+    margin-top: 24px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#profil{
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.row>*{
+    padding: 0;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.btn-primary{
+    background-color: #254e7a;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #5584b0;
+}
+
+.detailalumni {
+    margin: 24px;
+    margin-left: 44px;
+    margin-right: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+#keterangan {
+    width: 210px;
+}
+
+#titikdua {
+    text-align: center;
+    width: 10px;
+}
+
+#judul{
+    font-weight: bold;
+    text-align: left;
+    background-color: #5584b0;
+    color: white;
+}
+
+.breadcrumb{
+    margin-top: 24px;
+}
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#profil{
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#edit {
+    border: #FF9800;
+    color: #fff;
+    background-color: #FF9800;
+}
+
+#edit:hover{
+    color: #fff;
+    background-color: #FB8C00;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+        .table {
+        font-size: 14px;
+    }
+
+    #keterangan {
+        width: 140px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+        #judul {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+    }
+
+        .biodata {
+        margin: 24px;
+    }
+}
