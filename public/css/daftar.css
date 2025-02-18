@@ -54,8 +54,21 @@
             width: 450px;
             text-align: center;
             font-weight:bold;
-            
-                        font-size: larger;
+            font-size: larger;
+            color:#062e58;
+        }
+        .contact-admin {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .contact-admin i {
+            margin-right: 8px;
         }
         .fi-2{
             animation: up-down 3s ease-in-out alternate infinite;
@@ -73,7 +86,15 @@
         .col-2{
             position: relative;
             width: 45%;
-            padding: 3%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: auto;
+            margin-bottom:auto;
+            padding-bottom: auto;
+            padding-top: auto;
+            padding-left: 1%;
+            text-align: center;
             overflow: hidden;
         }
         .btn-box{

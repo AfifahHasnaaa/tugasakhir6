@@ -1,0 +1,102 @@
+.petunjuk {
+    margin: 32px;
+    border-radius: 8px;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.accordion {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #254e7a;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-header:hover {
+    background-color: #5584b0;
+}
+
+.accordion-body {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+    display: none;
+}
+
+.accordion-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-body li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: 4px;
+}
+
+.accordion.active .accordion-body {
+    display: block;
+}
+
+.accordion-header::after {
+    content: '\25BC';
+    font-size: 16px;
+    color: white;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
+
+.accordion.active .accordion-header::after {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .petunjuk {
+        margin: 16px;
+    }
+    .accordion-header {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .accordion-header .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }
+
+    .accordion-body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .accordion-body li {
+        margin-bottom: 6px;
+    }
+}

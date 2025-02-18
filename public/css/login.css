@@ -3,7 +3,7 @@
         :root {
             --background: #1634c99db;
             --text: #fff;
-            --text2: #000;
+            --text2: #254e7a;
         }
 
         * {
@@ -69,6 +69,7 @@
             text-align: center;
             font-size: larger;
             font-weight: bold;
+            color:#062e58;
         }
 
         .fi-2 {
@@ -96,8 +97,17 @@
         .col-2 {
             position: relative;
             width: 45%;
-            padding: 3%;
             overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: auto;
+            margin-bottom:auto;
+            padding-bottom: auto;
+            padding-top: auto;
+            padding-left: 3%;
+            padding-right: 3%;
+            text-align: center;
         }
 
         .btn-box {
@@ -137,7 +147,9 @@
             flex-direction: column;
             width: 100%;
             margin-top: auto;
-            padding: 10px 24px;
+            padding-top: auto;
+            padding-bottom: auto;
+            padding-right: 10px 24px;
             transition: .3s;
         }
 
@@ -154,6 +166,12 @@
 
         .input-box {
             position: relative;
+        }
+
+        .input-boxs {
+            position: relative;
+            display: flex;
+            gap: 10px;
         }
 
         .input-fields {
@@ -237,6 +255,21 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             cursor: pointer;
             transition: .3s;
+            background-color: #5584b0;
+        }
+        .hubungi {
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px 0;
+            width: 20%;
+            height: 55px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 10px;
             background-color: #5584b0;
         }
 

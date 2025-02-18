@@ -58,3 +58,345 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2025-02-18 05:33:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:34:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:35:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:36:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:37:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:38:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:39:21] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:40:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:41:23] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:41:23] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:67
+Stack trace:
+#0 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Container\Container.php(908): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(961): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(946): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:67
+Stack trace:
+#0 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(961): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(946): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:67)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:41:23] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:67
+Stack trace:
+#0 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php')
+#1 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Container\Container.php(908): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Container\Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(961): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Container\Container.php(731): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(946): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:67
+Stack trace:
+#0 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(961): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(946): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:67)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:42:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:43:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:43:44] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:67)
+[stacktrace]
+#0 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php')
+#1 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(961): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(946): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(168): Illuminate\\Foundation\\Application->make('blade.compiler')
+#7 [internal function]: Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}()
+#8 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\EngineResolver.php(55): call_user_func(Object(Closure))
+#9 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(310): Illuminate\\View\\Engines\\EngineResolver->resolve('blade')
+#10 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(274): Illuminate\\View\\Factory->getEngineFromPath('C:\\\\Users\\\\ThinKp...')
+#11 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(146): Illuminate\\View\\Factory->viewInstance('alumni.lowongan', 'C:\\\\Users\\\\ThinKp...', Array)
+#12 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(1020): Illuminate\\View\\Factory->make('alumni.lowongan', Array, Array)
+#13 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Http\\Controllers\\Lowongan.php(41): view('alumni/lowongan', Array)
+#14 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\Lowongan->showLowongan()
+#15 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('showLowongan', Array)
+#16 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\Lowongan), 'showLowongan')
+#17 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#18 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#19 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#56 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\ThinKp...')
+#59 {main}
+"} 
+[2025-02-18 05:43:44] local.ERROR: file_put_contents(C:\Users\ThinKpad\Downloads\baruuu\tracking-alumni (1)\storage\framework/sessions/QI5N2Yj0IBWRBGFdncJwXqDRC04UkTPNIny6oVWh): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\storage\\framework/sessions/QI5N2Yj0IBWRBGFdncJwXqDRC04UkTPNIny6oVWh): Failed to open stream: No such file or directory at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:204)
+[stacktrace]
+#0 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\Users\\\\ThinKp...', 204)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_put_conten...', 'C:\\\\Users\\\\ThinKp...', 204)
+#2 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(204): file_put_contents('C:\\\\Users\\\\ThinKp...', 'a:3:{s:6:\"_toke...', 2)
+#3 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\FileSessionHandler.php(90): Illuminate\\Filesystem\\Filesystem->put('C:\\\\Users\\\\ThinKp...', 'a:3:{s:6:\"_toke...', true)
+#4 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Store.php(172): Illuminate\\Session\\FileSessionHandler->write('QI5N2Yj0IBWRBGF...', 'a:3:{s:6:\"_toke...')
+#5 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(245): Illuminate\\Session\\Store->save()
+#6 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(130): Illuminate\\Session\\Middleware\\StartSession->saveSession(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#8 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\ThinKp...')
+#39 {main}
+"} 
+[2025-02-18 05:44:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:45:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:46:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:47:21] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:48:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:49:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:50:21] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:51:23] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:52:26] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:53:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:54:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:55:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:56:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:57:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:58:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 05:59:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:00:49] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:01:26] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:02:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:03:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:04:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:05:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:06:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:07:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:08:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:09:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:10:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:11:23] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:12:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:13:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:14:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:15:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:16:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:17:23] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2025-02-18 06:18:22] local.ERROR: Cannot declare class App\Models\User, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class App\\Models\\User, because the name is already in use at C:\\Users\\ThinKpad\\Downloads\\baruuu\\tracking-alumni (1)\\app\\Models\\UserModels.php:8)
+[stacktrace]
+#0 {main}
+"} 

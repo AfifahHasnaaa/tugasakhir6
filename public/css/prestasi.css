@@ -1,0 +1,187 @@
+.tambah {
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #254e7a;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.tambah:hover{
+    background-color: #5584b0;
+}
+
+.prestasi-container {
+    margin: 32px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.alumni-card {
+    background-color: #5584b0;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    }
+
+.alumni-card img {
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 20px;
+    }
+
+.alumni-info {
+    flex: 1;
+    }
+
+.alumni-info h5 {
+    font-weight: bold;
+}
+
+.alumni-info p {
+    margin: 0;
+}
+
+.alumni-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.alumni-actions button {
+    width: 100%;     
+    margin-bottom: 10px; 
+}
+
+.card-wrapper {
+    margin-top: 30px;
+}
+
+.editprestasi-container,.tambahprestasi-container{
+    margin: 32px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.editprestasi-header, .tambahprestasi-header{
+    background-color: #5584b0;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.formeditprestasi, .formtambahprestasi{
+    padding: 24px;
+}
+
+.btn-primary{
+    background-color: #254e7a;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #5584b0;
+}
+
+@media (max-width: 768px) {
+    .tambah {
+        font-size: 14px;
+        padding: 8px 20px;
+        border-radius: 6px;
+    }
+
+    .prestasi-container,
+    .editprestasi-container,
+    .tambahprestasi-container {
+        margin: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    .alumni-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 16px;
+        margin-bottom: 20px;
+    }
+
+    .alumni-card img {
+        width: 120px;
+        height: 120px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .alumni-info {
+        flex: unset;
+        width: 100%;
+    }
+
+    .alumni-info h5 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .alumni-info p {
+        font-size: 14px;
+    }
+
+    .alumni-actions {
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .alumni-actions button {
+        width: 48%;
+        font-size: 14px;
+    }
+
+    .editprestasi-header, .tambahprestasi-header {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .formeditprestasi, .formtambahprestasi {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
